@@ -1,0 +1,276 @@
+
+/*index*/
+  body{
+    background-color: #f6f4f2;
+    
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-image: url('img3/chetah.png');   
+  }
+  
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 6rem 2rem;
+  }
+  
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    background-color: #f9f4f0;
+    color: #8e6b60;
+  }
+
+
+  .tøj2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 1cm;
+    margin-left: 2cm;   
+    margin-right: 2cm;
+    
+  }
+
+  .tøj2 img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .imggal img:hover  {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(157, 8, 72, 0.2);
+  }
+  
+/*OM MIG*/
+
+  .about-section {
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 1200px;
+    align-items: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  }
+  
+  .about-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #922b2b; 
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .about-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+  }
+ 
+
+  /*Projekter*/
+    
+.projekt-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .projekt-boks {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .projekt-boks::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    z-index: 0;
+  }
+  
+  .tekst {
+    position: relative;
+    z-index: 1;
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+.pro {
+    margin-top: 3cm;
+}
+.texty{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding-right: 2rem;
+
+
+}
+.texty2{
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f9edf2;
+    font-size: 1rem;
+    max-width: 700px;
+    
+}
+.texty3{
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f2edde;
+    font-size: 1rem;
+    max-width: 700px;
+    
+}
+.texty4{
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #e9cbcb;
+    font-size: 1rem;
+    max-width: 700px;
+    
+}
+.texty5{
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #e6e5e5;
+    font-size: 1rem;
+    max-width: 700px;
+    
+}
+
+  /*Link*/
+
+.grid_10 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    margin: 0 auto; 
+    gap: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    
+  }
+  
+  .grid_10 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .button {
+    background-color: #d1bac1;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+   border-radius: 8px;
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  .button:hover {
+    background-color: #8c586d;
+   
+  }
+  .gallery {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .gallery img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+  }
+
+
+/*Mobilvenligt*/
+
+@media (max-width: 768px) {
+     
+    .about-grid {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .about-text h1 {
+      font-size: 2rem;
+    }
+  
+    .about-text p {
+      font-size: 0.95rem;
+    }
+.grid_10 {
+  
+        grid-template-columns: 1fr; 
+        width: 100%;
+        padding: 1rem;
+      }
+      .tøj2 img{
+        width: 120%;
+        height: 120%;
+      }
+
+}
